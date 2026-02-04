@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demba Fofana - Cybersécurité</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-shield-alt"></i> Demba Fofana
+            </a>
+            <button class="menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="#accueil">Accueil</a>
+                <a href="#apropos">À propos</a>
+                <a href="#competences">Compétences</a>
+                <a href="#projets">Projets</a>
+                <a href="#contact">Contact</a>
+                <button class="theme-btn" id="themeBtn">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-shield-check"></i> Étudiant en Cybersécurité
+                </div>
+                <h1>Je suis <span class="highlight">Demba Fofana</span></h1>
+                <h2 id="typewriter">Etudiant en BUT3 réseaux télécoms </h2>
+                <p class="hero-desc">
+                    Passionné par la sécurité des systèmes d'information, l'OSINT et la protection 
+                    des infrastructures réseaux. Je développe des solutions pour sécuriser 
+                    l'environnement numérique.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn primary">Voir mes projets</a>
+                    <a href="#contact" class="btn secondary">Me contacter</a>
+                    <a href="#" class="btn outline" download>
+                        
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-num">10+</div>
+                        <div class="stat-label">Projets</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num">3+</div>
+                        <div class="stat-label">Outils</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num">3+</div>
+                        <div class="stat-label">Années</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- À propos -->
+    <section id="apropos" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-num">01.</span> À propos de moi
+            </h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="image-border"></div>
+                        <div class="image-placeholder">
+                            <i class="fas fa-user"></i>
+                            <!-- Remplacez par <img src="votre-photo.jpg"> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Bonjour ! Je suis Demba</h3>
+                    <p class="subtitle">Étudiant en cybersécurité passionné par la protection numérique</p>
+                    
+                    <p>Actuellement en troisième année de BUT Réseaux & Télécommunications, je me spécialise 
+                    dans la cybersécurité avec un fort intérêt pour la sécurité réseau, l'OSINT et l'audit.</p>
+                    
+                    <p>Mon parcours inclut également une Licence Informatique, Réseaux et Télécoms qui m'a permis 
+                    d'acquérir une solide base technique.</p>
+                    
+                    <div class="about-grid">
+                        <div class="about-item">
+                            <i class="fas fa-bullseye"></i>
+                            <div>
+                                <h4>Objectif</h4>
+                                <p>Expert en sécurité des SI</p>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localisation</h4>
+                                <p>Paris, France</p>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>dembafof6@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Statut</h4>
+                                <p>Étudiant</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="competences" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-num">02.</span> Mes Compétences
+            </h2>
+            
+            <div class="skills-grid">
+                <!-- Réseaux -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Réseaux & Systèmes</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>TCP/IP & Modèle OSI</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Pare-feu (pfSense)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Administration Linux</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cybersécurité -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Cybersécurité</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>OSINT & Investigation</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Sécurité Réseau</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Analyse de Vulnérabilités</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Développement -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Développement</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Bash Scripting</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>HTML/CSS/JS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Outils -->
+            <div class="tools-section">
+                <h3>Outils & Technologies</h3>
+                <div class="tools-grid">
+                    <div class="tool">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="tool">
+                        <i class="fab fa-linux"></i>
+                        <span>Linux</span>
+                    </div>
+                    <div class="tool">
+                        <i class="fas fa-fire"></i>
+                        <span>pfSense</span>
+                    </div>
+                    <div class="tool">
+                        <i class="fas fa-search"></i>
+                        <span>Metasploit</span>
+                    </div>
+                    <div class="tool">
+                        <i class="fas fa-terminal"></i>
+                        <span>Wireshark</span>
+                    </div>
+                    <div class="tool">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section id="projets" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-num">03.</span> Mes Projets
+            </h2>
+            
+            <div class="projects-grid">
+                <!-- Projet 1 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag python">Python</span>
+                        <span class="tag security">OSINT</span>
+                    </div>
+                    <h3>Outil OSINT - Analyse d'images</h3>
+                    <p>Développement d'un outil automatisé en Python pour l'extraction de métadonnées EXIF et la recherche inversée d'images.</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-check"></i> Extraction EXIF</span>
+                        <span><i class="fas fa-check"></i> Recherche inversée</span>
+                        <span><i class="fas fa-check"></i> Rapport PDF</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Détails</a>
+                    </div>
+                </div>
+                
+                <!-- Projet 2 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag security">Sécurité</span>
+                        <span class="tag edu">Sensibilisation</span>
+                    </div>
+                    <h3>Campagne anti-phishing</h3>
+                    <p>Conception d'une campagne de sensibilisation au phishing avec création d'emails simulés et suivi des taux de clics.</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-check"></i> Scénarios réalistes</span>
+                        <span><i class="fas fa-check"></i> Suivi statistique</span>
+                        <span><i class="fas fa-check"></i> Formation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-file-alt"></i> Rapport</a>
+                        <a href="#"><i class="fas fa-chart-bar"></i> Stats</a>
+                    </div>
+                </div>
+                
+                <!-- Projet 3 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag network">Réseau</span>
+                        <span class="tag security">Sécurité</span>
+                    </div>
+                    <h3>Réseau sécurisé pfSense</h3>
+                    <p>Mise en place d'un réseau local sécurisé avec segmentation VLAN, règles de pare-feu avancées et VPN.</p>
+                    <div class="project-features">
+                        <span><i class="fas fa-check"></i> Segmentation VLAN</span>
+                        <span><i class="fas fa-check"></i> VPN IPSec</span>
+                        <span><i class="fas fa-check"></i> Monitoring</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-file-alt"></i> Docs</a>
+                        <a href="#"><i class="fas fa-diagram-project"></i> Schéma</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formation -->
+    <section id="formation" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-num">04.</span> Formation
+            </h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 - 2026</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>BUT Réseaux & Télécommunications</h3>
+                            <span class="timeline-badge">En cours</span>
+                        </div>
+                        <p class="timeline-sub">Spécialité Cybersécurité – IUT de Villetaneuse</p>
+                        <ul class="timeline-list">
+                            <li>Sécurité réseau avancée</li>
+                            <li>Cryptographie appliquée</li>
+                            <li>Audit de sécurité</li>
+                            <li>SIEM Wazuh</li>
+                            <li>Freeradius</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - 2025</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Licence Informatique, Réseaux & Télécoms</h3>
+                            <span class="timeline-badge">Diplômé</span>
+                        </div>
+                        <p class="timeline-sub">ITMA </p>
+                        <ul class="timeline-list">
+                            <li>Architecture des systèmes</li>
+                            <li>Programmation avancée</li>
+                            <li>Réseaux TCP/IP</li>
+                            <li>VOip</li>
+                            <li>Python</li>
+                            <li>Bash</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-num">05.</span> Contact
+            </h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Discutons de sécurité</h3>
+                    <p>Vous avez un projet ou une question ? N'hésitez pas à me contacter.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:dembafof6@gmail.com">dembafof6@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localisation</h4>
+                                <p>Paris, Île-de-France</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Disponibilité</h4>
+                                <p>Réponse sous 24h</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-icons">
+                        <a href="https://github.com/fofademba" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/demba-fofana-b6373338b" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">
+                                <i class="fas fa-user"></i> Nom complet
+                            </label>
+                            <input type="text" id="name" placeholder="Votre nom" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">
+                                <i class="fas fa-envelope"></i> Email
+                            </label>
+                            <input type="email" id="email" placeholder="votre@email.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">
+                                <i class="fas fa-comment"></i> Message
+                            </label>
+                            <textarea id="message" rows="5" placeholder="Votre message..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn primary">
+                            <i class="fas fa-paper-plane"></i> Envoyer
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-shield-alt"></i>
+                    <div>
+                        <h3>Demba Fofana</h3>
+                        <p>Cybersécurité & Réseaux</p>
+                    </div>
+                </div>
+                
+                <div class="footer-quote">
+                    <p>"La sécurité n'est pas un produit, mais un processus."</p>
+                    <span>- Bruce Schneier</span>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#accueil">Accueil</a>
+                    <a href="#apropos">À propos</a>
+                    <a href="#projets">Projets</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p>© 2024 Demba Fofana. Tous droits réservés.</p>
+                    <a href="#accueil" class="back-top">
+                        <i class="fas fa-arrow-up"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
