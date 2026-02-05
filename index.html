@@ -39,7 +39,7 @@
                     <i class="fas fa-shield-check"></i> Étudiant en Cybersécurité
                 </div>
                 <h1>Je suis <span class="highlight">Demba Fofana</span></h1>
-                <h2 id="typewriter">Etudiant en BUT3 réseaux télécoms </h2>
+                <h2 id="typewriter">Étudiant en BUT3 réseaux télécoms</h2>
                 <p class="hero-desc">
                     Passionné par la sécurité des systèmes d'information, l'OSINT et la protection 
                     des infrastructures réseaux. Je développe des solutions pour sécuriser 
@@ -48,8 +48,8 @@
                 <div class="hero-buttons">
                     <a href="#projets" class="btn primary">Voir mes projets</a>
                     <a href="#contact" class="btn secondary">Me contacter</a>
-                    <a href="#" class="btn outline" download>
-                        
+                    <a href="cv.pdf" class="btn outline" download>
+                        <i class="fas fa-download"></i> CV
                     </a>
                 </div>
                 <div class="hero-stats">
@@ -367,7 +367,7 @@
                             <h3>Licence Informatique, Réseaux & Télécoms</h3>
                             <span class="timeline-badge">Diplômé</span>
                         </div>
-                        <p class="timeline-sub">ITMA </p>
+                        <p class="timeline-sub">ITMA</p>
                         <ul class="timeline-list">
                             <li>Architecture des systèmes</li>
                             <li>Programmation avancée</li>
@@ -375,7 +375,6 @@
                             <li>VOip</li>
                             <li>Python</li>
                             <li>Bash</li>
-
                         </ul>
                     </div>
                 </div>
@@ -394,6 +393,12 @@
                 <div class="contact-info">
                     <h3>Discutons de sécurité</h3>
                     <p>Vous avez un projet ou une question ? N'hésitez pas à me contacter.</p>
+                    
+                    <!-- Notice RGPD -->
+                    <div class="rgpd-notice">
+                        <h4><i class="fas fa-shield-alt"></i> Protection des données</h4>
+                        <p>Vos données personnelles sont collectées uniquement pour répondre à votre demande. Elles ne sont ni vendues ni partagées avec des tiers. Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression.</p>
+                    </div>
                     
                     <div class="contact-methods">
                         <div class="contact-method">
@@ -445,7 +450,7 @@
                         
                         <div class="form-group">
                             <label for="email">
-                                <i class="fas fa-envelope"></i> Email
+                                <i class="fas fa-envelope"></i> Adresse email
                             </label>
                             <input type="email" id="email" placeholder="votre@email.com" required>
                         </div>
@@ -457,14 +462,68 @@
                             <textarea id="message" rows="5" placeholder="Votre message..." required></textarea>
                         </div>
                         
+                        <!-- Case RGPD -->
+                        <div class="form-group rgpd-checkbox">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="rgpdConsent" required>
+                                <span class="checkmark"></span>
+                                <span class="checkbox-text">
+                                    J'accepte que mes données soient traitées dans le cadre de ma demande de contact. 
+                                    <a href="#rgpd-modal" class="rgpd-link">En savoir plus</a>
+                                </span>
+                            </label>
+                        </div>
+                        
                         <button type="submit" class="btn primary">
                             <i class="fas fa-paper-plane"></i> Envoyer
                         </button>
+                        
+                        <div class="form-note">
+                            <i class="fas fa-lock"></i> Vos données sont protégées conformément au RGPD
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Modal RGPD -->
+    <div class="modal" id="rgpd-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3><i class="fas fa-gavel"></i> Politique de confidentialité RGPD</h3>
+            <div class="modal-body">
+                <h4>Responsable du traitement</h4>
+                <p>Demba Fofana - dembafof6@gmail.com</p>
+                
+                <h4>Finalités du traitement</h4>
+                <p>Les données collectées via ce formulaire sont utilisées exclusivement pour répondre à votre demande de contact et ne seront en aucun cas utilisées à d'autres fins.</p>
+                
+                <h4>Données collectées</h4>
+                <ul>
+                    <li>Nom et prénom</li>
+                    <li>Adresse email</li>
+                    <li>Message</li>
+                </ul>
+                
+                <h4>Durée de conservation</h4>
+                <p>Vos données sont conservées pendant 1 an après notre dernier contact, sauf obligation légale contraire.</p>
+                
+                <h4>Vos droits</h4>
+                <p>Conformément au RGPD, vous disposez des droits suivants :</p>
+                <ul>
+                    <li>Droit d'accès à vos données</li>
+                    <li>Droit de rectification</li>
+                    <li>Droit à l'effacement</li>
+                    <li>Droit à la limitation du traitement</li>
+                    <li>Droit d'opposition</li>
+                </ul>
+                
+                <h4>Exercer vos droits</h4>
+                <p>Pour exercer vos droits ou pour toute question, contactez-moi à : dembafof6@gmail.com</p>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer class="footer">
@@ -492,6 +551,11 @@
                 
                 <div class="footer-bottom">
                     <p>© 2026 Demba Fofana. Tous droits réservés.</p>
+                    <div class="footer-legal">
+                        <a href="#rgpd-modal" class="rgpd-link">Confidentialité (RGPD)</a>
+                        <span class="separator">•</span>
+                        <a href="#mentions-legales">Mentions légales</a>
+                    </div>
                     <a href="#accueil" class="back-top">
                         <i class="fas fa-arrow-up"></i>
                     </a>
