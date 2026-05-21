@@ -437,3 +437,51 @@ window.portfolioDebug = {
         return localStorage.getItem('theme') || 'dark';
     }
 };
+/* ===== NOUVEAU BADGE GESTION DE CRISE (HERO) ===== */
+.crisis-badge {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    background: rgba(0, 255, 136, 0.1);
+    border: 1px solid var(--primary);
+    border-radius: 40px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.crisis-badge i {
+    color: var(--primary);
+    font-size: 1.2rem;
+}
+
+.crisis-badge span {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text);
+    background: rgba(0, 255, 136, 0.15);
+    padding: 4px 12px;
+    border-radius: 20px;
+    letter-spacing: 0.3px;
+}
+
+.crisis-badge span:hover {
+    background: var(--primary);
+    color: #000;
+    transition: 0.3s;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .crisis-badge {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        border-radius: 20px;
+    }
+    .crisis-badge span {
+        width: 100%;
+        text-align: center;
+    }
+}
